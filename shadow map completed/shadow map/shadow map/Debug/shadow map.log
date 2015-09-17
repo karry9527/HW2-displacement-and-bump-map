@@ -1,0 +1,29 @@
+﻿已經開始建置於 2015/9/8 下午 06:48:52。
+     1>節點 2 (build 目標) 上的專案 "C:\Asus WebStorage\karry9527100@gmail.com\MySyncFolder\HW2-displacement-and-bump-map\shadow map completed\shadow map\shadow map\shadow map.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\shadow map.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Asus WebStorage\karry9527100@gmail.com\MySyncFolder\HW2-displacement-and-bump-map\shadow map completed\shadow map\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt shadowMapMain.cpp
+         shadowMapMain.cpp
+     1>c:\asus webstorage\karry9527100@gmail.com\mysyncfolder\hw2-displacement-and-bump-map\shadow map completed\shadow map\shadow map\shadowmapmain.cpp(42): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Asus WebStorage\karry9527100@gmail.com\MySyncFolder\HW2-displacement-and-bump-map\shadow map completed\shadow map\Debug\shadow map.exe" /NOLOGO /LIBPATH:"C:\Asus WebStorage\karry9527100@gmail.com\MySyncFolder\HW2-displacement-and-bump-map\shadow map completed\shadow map\lib" glut32.lib glew32.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\shadow map.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Asus WebStorage\karry9527100@gmail.com\MySyncFolder\HW2-displacement-and-bump-map\shadow map completed\shadow map\Debug\shadow map.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Asus WebStorage\karry9527100@gmail.com\MySyncFolder\HW2-displacement-and-bump-map\shadow map completed\shadow map\Debug\shadow map.lib" /MACHINE:X86 Debug\glmath.obj
+         Debug\light.obj
+         Debug\mesh.obj
+         Debug\scene.obj
+         Debug\ShaderLoader.obj
+         Debug\view.obj
+         Debug\shadowMapMain.obj
+         LINK : 最後的累加連結找不到或未建置 C:\Asus WebStorage\karry9527100@gmail.com\MySyncFolder\HW2-displacement-and-bump-map\shadow map completed\shadow map\Debug\shadow map.exe，正在執行完整連結
+         shadow map.vcxproj -> C:\Asus WebStorage\karry9527100@gmail.com\MySyncFolder\HW2-displacement-and-bump-map\shadow map completed\shadow map\Debug\shadow map.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Asus WebStorage\karry9527100@gmail.com\MySyncFolder\HW2-displacement-and-bump-map\shadow map completed\shadow map\Debug\shadow map.exe;#1" /manifest "Debug\shadow map.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\shadow map.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\shadow map.lastbuildstate"。
+     1>專案 "C:\Asus WebStorage\karry9527100@gmail.com\MySyncFolder\HW2-displacement-and-bump-map\shadow map completed\shadow map\shadow map\shadow map.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.74

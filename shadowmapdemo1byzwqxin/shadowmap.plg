@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: shadowmap - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/shadowmap.res" /d "_DEBUG" /d "_AFXDLL" "K:\zwqxin-zblog\free data\shadowmap\shadowmap.rc"" 
+Creating temporary file "C:\DOCUME~1\zwqxin\LOCALS~1\Temp\RSP1F1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/shadowmap.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"K:\zwqxin-zblog\free data\shadowmap\3DS.cpp"
+"K:\zwqxin-zblog\free data\shadowmap\BaseDraw.cpp"
+"K:\zwqxin-zblog\free data\shadowmap\Camera.cpp"
+"K:\zwqxin-zblog\free data\shadowmap\MainFrame.cpp"
+"K:\zwqxin-zblog\free data\shadowmap\MyGLSL.cpp"
+"K:\zwqxin-zblog\free data\shadowmap\shadowmap.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zwqxin\LOCALS~1\Temp\RSP1F1.tmp" 
+Creating temporary file "C:\DOCUME~1\zwqxin\LOCALS~1\Temp\RSP1F2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/shadowmap.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"K:\zwqxin-zblog\free data\shadowmap\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\zwqxin\LOCALS~1\Temp\RSP1F2.tmp" 
+Creating temporary file "C:\DOCUME~1\zwqxin\LOCALS~1\Temp\RSP1F3.tmp" with contents
+[
+glew32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/shadowmap.pdb" /debug /machine:I386 /out:"Debug/shadowmap.exe" /pdbtype:sept 
+".\Debug\3DS.obj"
+".\Debug\BaseDraw.obj"
+".\Debug\Camera.obj"
+".\Debug\MainFrame.obj"
+".\Debug\MyGLSL.obj"
+".\Debug\shadowmap.obj"
+".\Debug\StdAfx.obj"
+".\Debug\shadowmap.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\zwqxin\LOCALS~1\Temp\RSP1F3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+3DS.cpp
+BaseDraw.cpp
+Camera.cpp
+MainFrame.cpp
+MyGLSL.cpp
+shadowmap.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/shadowmap.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\3DS.sbr" ".\Debug\BaseDraw.sbr" ".\Debug\Camera.sbr" ".\Debug\MainFrame.sbr" ".\Debug\MyGLSL.sbr" ".\Debug\shadowmap.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+shadowmap.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
